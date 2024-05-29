@@ -15,7 +15,7 @@ li s2, 12
 li a0, 2
 sw a0, 0(s2)
 
-li s2, 17
+li s2, 16
 li a0, 4
 sw a0, 0(s2)
 

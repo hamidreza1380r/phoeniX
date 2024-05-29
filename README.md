@@ -10,7 +10,7 @@ Computer Organization - Spring 2024
 
 ## Report
 
-- Wirte your report and the final result of the assembly code here!
+
 
 Problem1:
     In order to design a program that implements quicksort, we must design a return function, since it is very difficult to make return functions in assembly languages, we use the following algorithm:
@@ -19,9 +19,9 @@ Problem1:
     Now, the end of the range we considered for sorting is less and up to the new pivot, and we save the address of the previous pivot so that when the start pointer reaches the end pointer of the range, after that we consider the previous pivot as the end of the range. 
     Likewise, when the beginning of the range reaches the end of the main range, our values will be sorted.
 
-    our_values : 1,2,3,4,5,17
+    our_values : 1,2,3,4,5,16
 
-
+![Result1](Result1.jpg)
 
 
 problem2:
@@ -29,5 +29,5 @@ problem2:
 
     a0=(20)^(1/2)~=5
 
-- Attach the waveform image to the README.md file
-![Result](Result2.jpg)
+
+![Result2](Result2.jpg)
