@@ -1,9 +1,28 @@
    
-    .data
-our_values:
-    .word 3,5,1,2,4,17
-.text
-la s2,our_values
+li s2, 0
+li a0, 3
+sw a0, 0(s2)
+
+li s2, 4
+li a0, 5
+sw a0, 0(s2)
+
+li s2, 8
+li a0, 1
+sw a0, 0(s2)
+
+li s2, 12
+li a0, 2
+sw a0, 0(s2)
+
+li s2, 17
+li a0, 4
+sw a0, 0(s2)
+
+li s2, 20
+li a0, 16
+sw a0, 0(s2)
+
 begin:
     li s1,0
     li a1,0

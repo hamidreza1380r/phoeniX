@@ -27,6 +27,7 @@ Problem1:
 problem2:
     In this code, a binary search is used to find the square root of the input value. The algorithm starts with an initial test value of 1 and iteratively increments it by a factor of 4 (shifts 2 bits to the left) until the test value exceeds the input value. At this point, the square root is found and the result is returned in a0. It is three-dimensional, it is equal to 4) but the square root of integers is calculated accurately.
 
-    a0=(16)^(1/2)=4
+    a0=(20)^(1/2)~=5
 
 - Attach the waveform image to the README.md file
+![Result](Result2.jpg)

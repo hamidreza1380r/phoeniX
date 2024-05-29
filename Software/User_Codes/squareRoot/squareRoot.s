@@ -1,4 +1,4 @@
-li a0, 16    #input
+li a0, 20    #input
 sqrt:
     li t0, 0  
     li t1, 1  
@@ -11,8 +11,4 @@ loop:
 end:
     addi t0,t0,-1 
     mv a0,t0  #output
-    ret
-ebreak
-
-
-
+    ebreak
